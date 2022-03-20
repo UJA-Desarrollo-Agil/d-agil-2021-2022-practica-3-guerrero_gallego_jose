@@ -41,7 +41,5 @@ Conforme avance la historia, el prisionero irá recolectando diversos objetos qu
 ## Capturas de Trello durante el desarrollo
 ### Inicio
 Inicialmente, se crean las tarjetas en el Product Backlog.
-
-(insertar foto)
-
+![Estado inicial](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-guerrero_gallego_jose/blob/master/games/media/img/trello1.png?raw=true)
 *Estado del tablero al inicio de la práctica*
