@@ -41,6 +41,22 @@ undum.game.situations = {
 		<br/>Notas que algo tira de ti. Miras hacia abajo, y ves que tienes las piernas encadenadas entre sí. La movilidad que tienes es bastante reducida, pero te permite andar y ponerte de pie. Finalmente, consigues acercarte a la ventana para ver tu entorno.
 		<br/>Agua. Mar. Rocas. Agua. Mar. Y más rocas. Algún pájaro volando. Nada más. Era todo lo que podía ver por ese minúsculo agujero.`
     ),
+	situacion2: new undum.SimpleSituation(
+        `<h1>El banquete</h1>\
+        <br/>— ¡Número 3! – otra vez se deshizo el silencio. Me giré rápidamente. Esta vez una grave y fuerte voz se había acercado bastante al sitio donde yo estaba. ¿Estaban matando o hiriendo a todos los que estábamos ahí?, ¿sería yo el siguiente?
+		<br/>Me estoy preparando para lo peor. Ese golpe, que vino seguido de un grito de dolor insoportable y agonizante. Espero, espero, y espero un poco más, pero nunca llega.
+		<br/>— ¡Número 4!
+		<br/>Había alguien tras la puerta. Tras eso, le dan unos cuantos golpes a la puerta, acto seguido, comienza a abrirse lentamente la misma.
+		<br/>Un hombre de considerable tamaño, con un largo cabello y una mirada totalmente perdida. Sus ropajes no parecían caros. Lo desaliñado que llevaba el pelo lo confirmaba.
+		<br/>— ¿Es que hoy no quieres comer? – sin pensar, rápidamente asiento. Claro que tenía hambre. Pero además del hambre, tenía otro problema, y es que no recordaba nada desde antes de despertarme.
+		<br/>— ¡Ja, ja, ja! – suelta unas carcajadas ese hombre. ¿Se ríe de mí?, ¿de mi situación, la cual ni conozco?
+		<br/>Acto seguido, mete sus grandes manos en una bolsa de tela, y saca un trozo de pan. Por la pinta que tenía, no era especialmente apetecible.
+		<br/>Me lo tira encima. Podría reaccionar, pero la verdad, no me encontraba en situación de hacerlo. Por lo que ignoro cómo me está tratando, y pienso en hacerle una pregunta.
+		<br/>— ¿Puedes decirme qué hago aquí? – da un portazo antes de que yo pudiese acabar la frase.
+		<br/>— Bueno, pues nada. No hay manera de averiguar quién soy, dónde estoy y por qué desde aquí dentro – pensó el prisionero. Fue en ese instante, cuando se dio cuenta que la única manera de aclarar todo esto, era saliendo de donde estaba.
+		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
+		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
+    ),
 };
 
 // ---------------------------------------------------------------------------
