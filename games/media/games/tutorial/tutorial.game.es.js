@@ -28,7 +28,7 @@ undum.game.slideUpSpeed = 500
 
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
-    start: new undum.SimpleSituation(
+    situacion1: new undum.SimpleSituation(
         "<h1>Starting Out with Undum</h1>\
         <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
         <p>Welcome to the Undum tutorial. Undum is a tool for writing\
@@ -48,6 +48,17 @@ undum.game.situations = {
 };
 
 // ---------------------------------------------------------------------------
+/* The Id of the starting situation. */
+undum.game.start = "situacion1";
+
+// ---------------------------------------------------------------------------
+/* Here we define all the qualities that our characters could
+ * possess. We don't have to be exhaustive, but if we miss one out then
+ * that quality will never show up in the character bar in the UI. */
+undum.game.qualities = {
+};
+
+// ---------------------------------------------------------------------------
 /* The qualities are displayed in groups in the character bar. This
  * determines the groups, their heading (which can be null for no
  * heading) and ordering. QualityDefinitions without a group appear at
@@ -55,8 +66,6 @@ undum.game.situations = {
  * non-existent group. */
 undum.game.qualityGroups = {
 	// Aquí van los grupos para las qualities
-    stats: new undum.QualityGroup(null, {priority:"0001"}),
-    progress: new undum.QualityGroup('Progress', {priority:"0002"})
 };
 
 // ---------------------------------------------------------------------------
@@ -64,10 +73,5 @@ undum.game.qualityGroups = {
  * to configure the character at the start of play. */
 undum.game.init = function(character, system) {
 	// Función que se ejecuta cuando comienza el juego.
-    character.qualities.skill = 12;
-    character.qualities.stamina = 12;
-    character.qualities.luck = 0;
-    character.qualities.novice = 1;
-    character.qualities.inspiration = 0;
     system.setCharacterText("<p>You are starting on an exciting journey.</p>");
 };
