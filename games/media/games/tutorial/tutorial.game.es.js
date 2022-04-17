@@ -104,18 +104,27 @@ undum.game.situations = {
         `<br/>¡Tienes los cordones desatados!
 		<br/>— Ahora es mi momento para huir. Mientras me giro para salir por patas noto como una maza me golpea en la nuca. Caigo redondo al suelo y apenas puedo mantener los ojos abiertos.
 		<ul class='transient'>\
-        <li><a href='situacion2'>Continuar...</a></li>\
+        <li><a href='situacion9'>Continuar...</a></li>\
         </ul>\
 		`	
 	),
-	
+	situacion9: new undum.SimpleSituation(
+        `<h1>Déjà vu</h1>\
+        <br/>Consigo abrir un ojo mientras escucho el sonido de las olas romper sin cesar, parece que he vuelto a la celda dónde estaba.
+		<br/>Mientras se acerca una sombra consigo deducir por sus vestimentas que es un médico. Me empieza a susurrar pero no consigo entender lo que me dice, me aplica un líquido dónde el guardia me había golpeado previamente.
+		<br/>Se me comienza a cerrar el ojo que tenía medio abierto y a penas puedo mantener la conciencia desde que me aplicó ese líquido. Conforme me duermo siento un…
+		<ul class='transient'>\
+        <li><a href='situacion1'>Dormirse...</a></li>\
+        </ul>\
+		`
+    )
 
 };
 
 
 function guardarNombre() {
 
-	this.nombre = document.getElementById("nombreInput").value;
+	if(document.getElementById("nombreInput").value !== "") this.nombre = document.getElementById("nombreInput").value;
 
 	const para = document.createElement("p");
 	para.innerHTML = "<br/>— " + this.nombre + " es tu nombre, sufres de amnesia y cada vez olvidas más rápido todo. Siempre haces el mismo camino a la hora de escaparte, por ello, ha sido tan fácil encontrarte.";
