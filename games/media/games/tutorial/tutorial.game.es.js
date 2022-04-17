@@ -57,11 +57,21 @@ undum.game.situations = {
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
     ),
+	situacion9: new undum.SimpleSituation(
+        `<h1>Déjà vu</h1>\
+        <br/>Consigo abrir un ojo mientras escucho el sonido de las olas romper sin cesar, parece que he vuelto a la celda dónde estaba.
+		<br/>Mientras se acerca una sombra consigo deducir por sus vestimentas que es un médico. Me empieza a susurrar pero no consigo entender lo que me dice, me aplica un líquido dónde el guardia me había golpeado previamente.
+		<br/>Se me comienza a cerrar el ojo que tenía medio abierto y a penas puedo mantener la conciencia desde que me aplicó ese líquido. Conforme me duermo siento un…
+		<ul class='transient'>\
+        <li><a href='situacion1'>Dormirse...</a></li>\
+        </ul>\
+		`
+    ),
 };
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion1";
+undum.game.start = "situacion9";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
