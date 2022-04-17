@@ -58,7 +58,30 @@ undum.game.situations = {
 		<br/>— Bueno, pues nada. No hay manera de averiguar quién soy, dónde estoy y por qué desde aquí dentro – pensó el prisionero. Fue en ese instante, cuando se dio cuenta que la única manera de aclarar todo esto, era saliendo de donde estaba.
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
-    ),
+	),
+
+	situacion7: new undum.SimpleSituation(
+		`<h1>Hora de ser ingenioso</h1>\
+        <br/>Es increíble, tome el camino que tome siempre me siguen y siempre adivinan hacia qué lado voy y qué caminos cojo exactamente sin dudarlo, no me entra en la cabeza.
+		<br/>
+		<br/>— ¡Quieto ahí número 4! – Exclamó uno de los guardias mientras corrían hacia mí.
+		<br/>
+		<br/>— ¿Qué pasa? ¿Por qué me seguís, qué queréis de mí? – Grité mientras corría aún más, intentando zafarme de ellos. Pero resultaba inútil.
+		<br/>
+		<br/>Al llegar a la colina parece que los he despistado. Antes de entrar a una cueva que hay ahí veo que hay dos caminos, uno para entrar a ella y otro que va hacia la izquierda de la entrada, entonces decido usar de una vez la mente y anticiparme a ellos.
+		<br/>
+		<br/>Dejo el palo asqueroso que había encontrado antes al principio del camino hacia la izquierda para que piensen que he ido por ahí y se me ha caído, mientras que yo realmente entraré a la cueva a refugiarme y así los despistaré.
+		<br/>
+		<br/>Me adentro a la cueva en busca de algo que me dé esperanzas de cómo salir de esta pesadilla o aunque sea buscar algo donde refugiarme de ellos. Esta cueva parece segura, no hay peligro aparente, aunque la verdad que está un poco oscura, como es normal.
+		<br/>
+		<br/>Pasan un par de minutos y veo como por detrás mía se halla una luz. No puede ser, son ellos otra vez, ¿Cómo demonios me han encontrado?
+		<br/>
+		<ul class='transient'>\
+		<br/><a href='situacion8'>Siguiente</a>
+		</ul>\
+		`
+	),
+
 	situacion8: new undum.SimpleSituation(
         `<h1>Respuestas</h1>\
         <br/>— Por fin te tengo – Exclamó el guardia. Se acerca y me agarra del hombro.
