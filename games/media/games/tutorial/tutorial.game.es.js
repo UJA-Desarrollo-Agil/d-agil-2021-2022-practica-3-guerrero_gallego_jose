@@ -124,7 +124,7 @@ function guardarNombre() {
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion8";
+undum.game.start = "situacion1";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
