@@ -86,7 +86,7 @@ undum.game.situations = {
 						s4visitadoUno = true
 						system.write("<p><a href='situacion4bosque'>Continuar al bosque</a></p>");
 					} else {
-						system.write("<p><a href='situacion6'>Continuar</a></p>");
+						system.write("<p><a href='situacion5'>Continuar</a></p>");
 					}
 				}
 			}
@@ -105,11 +105,21 @@ undum.game.situations = {
 						s4visitadoUno = true
 						system.write("<p><a href='situacion4playa'>Continuar a la playa</a></p>");
 					} else {
-						system.write("<p><a href='situacion6'>Continuar</a></p>");
+						system.write("<p><a href='situacion5'>Continuar</a></p>");
 					}
 				}
 			}
 		}
+	),
+	situacion5: new undum.SimpleSituation(
+		`<h1>El bosque de la derecha</h1>\
+		<p>Sigo pensando para mis adentros, ahora que la boca ya me sabe a algo más que al ambiente isleño que tengo presente, en seguir una ruta para ver si encuentro algo de civilización, o algo que responda a unas preguntas que ni siquiera tengo yo claras.Mi mente recuerda que, a la derecha de la entrada de la cueva, había otro bosque que parecía subir hacia la colina que había tras la cueva. Pienso que es una buena idea, pues me ofrece más sombra que el otro bosque con cocoteros, y siendo más frondosa quizás me ofrezca la oportunidad de esconderme y escapar de aquellos que me tenían prisionero en la cueva. Pero, ¿dónde están?</p>\
+		<p>Mi mente recuerda que, a la derecha de la entrada de la cueva, había otro bosque que parecía subir hacia la colina que había tras la cueva. Pienso que es una buena idea, pues me ofrece más sombra que el otro bosque con cocoteros, y siendo más frondosa quizás me ofrezca la oportunidad de esconderme y escapar de aquellos que me tenían prisionero en la cueva. Pero, ¿dónde están?</p>\
+		<p>Finalmente, decido a ponerme en marcha con mis cansados y doloridos pies hacia dicho bosque, dejando atrás la caliente zona de arena de playa y acostumbrando rápidamente mi cuerpo y vista a andar sobre tierra algo húmeda, cosa que agradezco.</p>\
+		<p>El terreno me eleva lentamente sobre la isla, es una ascensión cómoda, más observando mi  mala condición. Y la cabeza me sigue doliendo, y el cuerpo lleno de magulladuras. ¿Qué me ha pasado? ¿Cuánto llevo aquí? ¿Quién soy?</p>\
+		<p>Al menos, pienso yo, con lo frondoso de este bosque puedo ocultarme mejor. Aunque eso ya lo había pensado hace unos momentos. Sigue habiendo cocoteros, y otras plantas que no identifico pero que parecen, en casos extremos, comestibles. Bueno, aunque quizás ni lo recuerde.</p>\
+		<p>Mientras mi cabeza divaga, sigo andando y observando el bosque, perdido entre sus pocos claros. A lo que acabo deteniéndome pues observo, a mis pies, un palo de madera con algo de sangre.</p>\
+		<p><a class='transient' href='situacion6'>Continuar</a></p>`
 	),
 	situacion6: new undum.SimpleSituation(
 		`<h1>¿Cómo lo saben?</h1>\
@@ -225,7 +235,7 @@ function guardarNombre() {
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion1";
+undum.game.start = "situacion4";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
