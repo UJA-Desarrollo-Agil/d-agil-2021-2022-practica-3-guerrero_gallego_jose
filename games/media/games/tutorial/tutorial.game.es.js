@@ -57,6 +57,37 @@ undum.game.situations = {
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
     ),
+
+
+
+	situacion4: new undum.SimpleSituation(
+		`<h1>¿Cuánto llevo aquí?</h1>\
+		<p>Un sol cegante y abrasante se ciñe sobre mí, acabo cubriéndome los ojos un breve rato hasta que acostumbro mi vista a aquel día. Mientras tanto, comienzo a percibir más cosas, poco a poco, palmeras y mucha arena.</p>\
+		<p>Calor. Mucho calor. La lengua seca. No sé ya que es lo que me afecta de verdad. Quizás tenga calor por estar deshidratado. O tengo calor y me estoy deshidratando rápidamente. No lo sé. No paro de pensar, pero no sé lo que pensar con claridad. Calor. Mucho calor, y la lengua seca…</p>\
+		<p>Diviso una orilla cercana, con una pequeña colina hacia atrás, justo encima de la cueva, y una especie de bosque tropical a ambos lados.\
+		Empiezo a pensar en la idea de explorar un poco, pero ante tanto terreno y con los daños que tengo, \
+		tengo que decidir si <a href='situacion4playa'>exploro la playa</a> o <a href='situacion4bosque'>me adentro en alguno de los bosques</a>, \
+		evitando la colina, pues mis maltrechas extremidades me impedirían llegar, por ahora, muy lejos.</p>`
+	),
+	situacion4playa: new undum.SimpleSituation(
+		`<h2>El rostro</h2>\
+		<p>Comienzo a bajar a la costa, lentamente, pero con buen paso y, mientras observo como se termina de abrir la isla a mis ojos, con el palmeral quedándose atrás, una amplia playa se muestra ante mí.</p>\
+		<p>Dando unos pasos por ella, diviso algunos restos inútiles, pero un gran brillo proveniente de uno de ellos me obliga a acercarme.</p>\
+		<a href='situacion4espejo'>Coger el objeto brillante.</a>`
+	),
+	situacion4espejo: new undum.SimpleSituation(
+		`<p>Lo cojo con cuidado, pero aún así recibo un pequeño corte en mi mano. Es una especie de espejo, roto por los lados y resquebrajado, pero tengo la oportunidad de conocer algo de mí, mi propio rostro.</p>\
+		<p>Me miro, poco a poco. Larga barba. Suciedad. ¿Cuánto llevo aquí? ¿Cómo me llamo? ¿De donde soy? ¿Por qué estoy aquí?</p>\
+		<p>La cabeza me arde a preguntas, y me empieza a doler. Tiro ese espejo y regreso a la zona de la cueva.</p>\
+		<p><a href='situacion4bosque'>Continuar</a></p>`
+	),
+	situacion4bosque: new undum.SimpleSituation(
+		`<h2>El bosque de la izquierda</h2>\
+		<p>Ando hacia la izquierda de la cueva, dejando la arena a mis pies dar paso a un cúmulo de palos, hierbajos y tierra, mientras que el sol se empieza a esconder entre las copas de las palmeras.</p>\
+		<p>Me acerco a un cocotero rodeado de cocos ya abiertos y semivacíos. Este está un poco débil, ya que lo agito con las fuerzas que tengo y desprende otro coco.</p>\
+		<p>Cojo el coco y con algo de fuerza y daño, consigo abrirlo y beber de él. Debo seguir explorando, y vuelvo sobre mis pasos sin saber muy bien cómo continuar.</p>`
+		//<a href='situacion5'>Continuar</a>
+	)
 };
 
 // ---------------------------------------------------------------------------
