@@ -60,6 +60,7 @@ undum.game.situations = {
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
 	),
 
+
 	situacion6: new undum.SimpleSituation(
 		`<h1>¿Cómo lo saben?</h1>\
         <br/>Mientras estoy cogiendo ese palo de madera asqueroso lleno de sangre de a saber quién o qué, prefiero no imaginarlo, que estaba en el bosque tirado en una posición un tanto sospechosa, noto unas voces que me resultan familiares un poco más adentro del bosque.
@@ -74,6 +75,29 @@ undum.game.situations = {
 		<br/>
 		<ul class='transient'>\
 		<br/><a href='situacion7'>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.</a>
+
+	
+		`
+	),
+
+	situacion7: new undum.SimpleSituation(
+		`<h1>Hora de ser ingenioso</h1>\
+        <br/>Es increíble, tome el camino que tome siempre me siguen y siempre adivinan hacia qué lado voy y qué caminos cojo exactamente sin dudarlo, no me entra en la cabeza.
+		<br/>
+		<br/>— ¡Quieto ahí número 4! – Exclamó uno de los guardias mientras corrían hacia mí.
+		<br/>
+		<br/>— ¿Qué pasa? ¿Por qué me seguís, qué queréis de mí? – Grité mientras corría aún más, intentando zafarme de ellos. Pero resultaba inútil.
+		<br/>
+		<br/>Al llegar a la colina parece que los he despistado. Antes de entrar a una cueva que hay ahí veo que hay dos caminos, uno para entrar a ella y otro que va hacia la izquierda de la entrada, entonces decido usar de una vez la mente y anticiparme a ellos.
+		<br/>
+		<br/>Dejo el palo asqueroso que había encontrado antes al principio del camino hacia la izquierda para que piensen que he ido por ahí y se me ha caído, mientras que yo realmente entraré a la cueva a refugiarme y así los despistaré.
+		<br/>
+		<br/>Me adentro a la cueva en busca de algo que me dé esperanzas de cómo salir de esta pesadilla o aunque sea buscar algo donde refugiarme de ellos. Esta cueva parece segura, no hay peligro aparente, aunque la verdad que está un poco oscura, como es normal.
+		<br/>
+		<br/>Pasan un par de minutos y veo como por detrás mía se halla una luz. No puede ser, son ellos otra vez, ¿Cómo demonios me han encontrado?
+		<br/>
+		<ul class='transient'>\
+		<br/><a href='situacion8'>Siguiente</a>
 		</ul>\
 		`
 	),
