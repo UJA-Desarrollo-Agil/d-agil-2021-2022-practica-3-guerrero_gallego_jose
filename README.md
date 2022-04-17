@@ -11,9 +11,9 @@ Miembros:
 
 [Enlace al tablero Trello del proyecto.](https://trello.com/b/cMY1Pe3v/pr%C3%A1ctica-3)
 
-## Índice
+## Índice PR3
 - [Práctica 3](#pr-ctica-3)
-  * [Índice](#-ndice)
+  * [Índice PR3](#-ndice-pr3)
   * [Introducción y motivación](#introducci-n-y-motivaci-n)
   * [Características](#caracter-sticas)
   * [Capturas del juego](#capturas-del-juego)
@@ -43,3 +43,24 @@ Conforme avance la historia, el prisionero irá recolectando diversos objetos qu
 Inicialmente, se crean las tarjetas en el Product Backlog.
 ![Estado inicial](https://github.com/UJA-Desarrollo-Agil/d-agil-2021-2022-practica-3-guerrero_gallego_jose/blob/master/games/media/img/trello1.png?raw=true)
 *Estado del tablero al inicio de la práctica*
+
+# Práctica 4 - Sprint 1
+
+## Índice PR4
+- [Práctica 4](#pr-ctica-4)
+  * [Índice PR4](#-ndice-pr4)
+  * [Sprint Backlog](#sprint-backlog)
+  * [Product Backlog Refinement](#product-backlog-refinement)
+  * [Sprint Planning Final](#sprint-planning-final)
+  * [Sprint Review](#sprint-review)
+  * [Sprint Retrospective](#sprint-retrospective)
+
+## Sprint Backlog
+
+## Product Backlog Refinement
+
+## Sprint Planning Final
+
+## Sprint Review
+
+## Sprint Retrospective
