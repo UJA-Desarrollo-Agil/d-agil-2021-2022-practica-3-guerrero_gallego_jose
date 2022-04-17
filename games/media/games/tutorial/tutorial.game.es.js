@@ -57,11 +57,56 @@ undum.game.situations = {
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
     ),
+	situacion8: new undum.SimpleSituation(
+        `<h1>Respuestas</h1>\
+        <br/>— Por fin te tengo – Exclamó el guardia. Se acerca y me agarra del hombro.
+		<br/>
+		`	
+	),
+	situacion811: new undum.SimpleSituation(
+        `<br/>Estoy confundido, el nombre me ha despertado recuerdos pero aún no sé qué hacía en esa celda ni cuánto tiempo llevaba allí.
+		<ul class='transient'>\
+        <li><a href='situacion81'>¿Qué hacía en la celda?</a></li>\
+        <li><a href='situacion82'>¿Cuánto tiempo llevo aquí?</a></li>\
+        <li><a href='situacion83'>¡Tienes los cordones desatados!</a></li>\
+        </ul>\
+		<br/>`
+	),
+	situacion81: new undum.SimpleSituation(
+        `<br/>¿Qué hacía en la celda?
+		<br/>— Robaste en los aposentos de la princesa innumeras joyas.
+		<ul class='transient'>\
+        <li><a href='situacion82'>¿Cuánto tiempo llevo aquí?</a></li>\
+        <li><a href='situacion83'>¡Tienes los cordones desatados!</a></li>\
+        </ul>\
+		<br/>— 
+		`	
+	),
+	situacion82: new undum.SimpleSituation(
+        `<br/>¿Cuánto tiempo llevo aquí?
+		<br/>— Hace 10 años que llevas aquí.
+		<ul class='transient'>\
+        <li><a href='situacion81'>¿Qué hacía en la celda?</a></li>\
+        <li><a href='situacion83'>¡Tienes los cordones desatados!</a></li>\
+        </ul>\
+		<br/>— 
+		`	
+	),
+	situacion83: new undum.SimpleSituation(
+        `<br/>¡Tienes los cordones desatados!
+		<br/>— Ahora es mi momento para huir. Mientras me giro para salir por patas noto como una maza me golpea en la nuca. Caigo redondo al suelo y apenas puedo mantener los ojos abiertos.
+		<ul class='transient'>\
+        <li><a href='situacion2'>Continuar...</a></li>\
+        </ul>\
+		`	
+	),
+	
+
 };
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion1";
+undum.game.start = "situacion8";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
