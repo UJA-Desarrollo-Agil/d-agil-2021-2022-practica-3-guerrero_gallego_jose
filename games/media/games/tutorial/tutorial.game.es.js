@@ -56,7 +56,7 @@ undum.game.situations = {
 		<br/>— Bueno, pues nada. No hay manera de averiguar quién soy, dónde estoy y por qué desde aquí dentro – pensó el prisionero. Fue en ese instante, cuando se dio cuenta que la única manera de aclarar todo esto, era saliendo de donde estaba.
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
-    ),
+	),
 };
 
 // ---------------------------------------------------------------------------
