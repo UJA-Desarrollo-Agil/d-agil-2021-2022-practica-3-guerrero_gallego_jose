@@ -26,6 +26,8 @@ undum.game.fadeSpeed = 1500
  * option. */
 undum.game.slideUpSpeed = 500
 
+var nombre = "Charles"; // Por defecto
+
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     situacion1: new undum.SimpleSituation(
@@ -61,6 +63,12 @@ undum.game.situations = {
         `<h1>Respuestas</h1>\
         <br/>— Por fin te tengo – Exclamó el guardia. Se acerca y me agarra del hombro.
 		<br/>
+		<br/><label for="nombreInput">Inserta tu nombre</label>
+		<br/><input type="text" id="nombreInput">
+		<ul class='transient'>\
+        <li><a onclick="guardarNombre()" href='situacion811'>Continuar...</a></li>\
+        </ul>\
+		<div id=nombreInyectado></div>\
 		`	
 	),
 	situacion811: new undum.SimpleSituation(
@@ -103,6 +111,16 @@ undum.game.situations = {
 	
 
 };
+
+
+function guardarNombre() {
+
+	this.nombre = document.getElementById("nombreInput").value;
+
+	const para = document.createElement("p");
+	para.innerHTML = "<br/>— " + this.nombre + " es tu nombre, sufres de amnesia y cada vez olvidas más rápido todo. Siempre haces el mismo camino a la hora de escaparte, por ello, ha sido tan fácil encontrarte.";
+	document.getElementById("nombreInyectado").appendChild(para);
+}
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
