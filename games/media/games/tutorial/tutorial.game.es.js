@@ -58,7 +58,23 @@ undum.game.situations = {
 		<br/>— Bueno, pues nada. No hay manera de averiguar quién soy, dónde estoy y por qué desde aquí dentro – pensó el prisionero. Fue en ese instante, cuando se dio cuenta que la única manera de aclarar todo esto, era saliendo de donde estaba.
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
 		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
-    ),
+	),
+
+	situacion6: new undum.SimpleSituation(
+		`<h1>¿Cómo lo saben?</h1>\
+        <br/>Mientras estoy cogiendo ese palo de madera asqueroso lleno de sangre de a saber quién o qué, prefiero no imaginarlo, que estaba en el bosque tirado en una posición un tanto sospechosa, noto unas voces que me resultan familiares un poco más adentro del bosque.
+		<br/>
+		<br/>Creo que son de la gente que me tenía encerrado en aquel zulo de roca, me están buscando. Intento esconderme y por fin confirmo mis sospechas de que son ellos, ya que llevan las mismas vestiduras pero de otro color, parece que son como el grupo que está vigilando los alrededores y me están buscando.
+		<br/>
+		<br/>— ¡Número 4!
+		<br/>
+		<br/>Cuando me quiero dar cuenta, ya me están mirando y se dan cuenta de que estoy ahí escondido. Así que empiezo a correr como un loco huyendo de ellos e intentando perderlos. Primero decidí introducirme un poco más adentro del bosque dando la vuelta a los guardas, pero ellos lo vieron venir y se han ido hacia el mismo lado, ¡qué raro!
+		<br/>
+		<br/>Está claro que tengo que despistarlos de alguna forma, el problema es que es muy extraño ya que a todos los sitios a los que intento ir, ellos me siguen prácticamente al segundo y van detrás mía, es como si de alguna forma siempre supieran hacia dónde estoy yendo o hacia donde me muevo, no tiene explicación lógica.
+		<br/>
+		<br/>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.`
+	),
+
 	situacion8: new undum.SimpleSituation(
         `<h1>Respuestas</h1>\
         <br/>— Por fin te tengo – Exclamó el guardia. Se acerca y me agarra del hombro.
