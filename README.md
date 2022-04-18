@@ -67,6 +67,23 @@ Inicialmente, se crean las tarjetas en el Product Backlog.
 
 
 ## Product Backlog Refinement
+![backlog-refinement](https://user-images.githubusercontent.com/99446551/163878283-52ce050c-5a69-47e8-872f-d185a049eb9a.jpg)
+
+Se han desglosado las historias de usuario en las siguientes tareas:
+
+- 1.1 Limpiar código del proyecto  
+- 1.2 Añadir quality para el progresa (hora del día)  
+- 2.1 Recoger trozo hierro de la situación 3  
+- 2.2 Recoger palo de la situación 6  
+- 11.1 Desarrollar situación 1  
+- 11.2 Desarrollar situación 2  
+- 11.3 Desarrollar situación 3  
+- 11.4 Desarrollar situación 4  
+- 11.5 Desarrollar situación 5  
+- 11.6 Desarrollar situación 6  
+- 11.7 Desarrollar situación 7  
+- 11.8 Desarrollar situación 8  
+- 11.9 Desarrollar situación 9  
 
 ## Sprint Planning Final
 
