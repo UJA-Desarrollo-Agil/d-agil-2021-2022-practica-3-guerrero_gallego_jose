@@ -86,6 +86,8 @@ Se han desglosado las historias de usuario en las siguientes tareas:
 - 11.9 Desarrollar situación 9  
 
 ## Sprint Planning Final
+Así ha quedado nuestro tablero después de relizar las tareas:
+![image](https://user-images.githubusercontent.com/99610212/163878759-9d98ea91-86d2-4c8b-be3b-f521a9952cb0.png)
 
 ## Sprint Review
 Nuestro producto es un juego que ofrece al jugador conocer el contexto en el que transcurre el juego y las diferentes situaciones por las que se pasa durante el tiempo de juego, algunas qualities como la hora real del juego o diferentes objetos que el jugador va almacenando en su inventario, y algunas situaciones de diálogos con otros personajes del juego.
