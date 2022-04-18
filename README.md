@@ -56,7 +56,7 @@ Inicialmente, se crean las tarjetas en el Product Backlog.
   * [Sprint Retrospective](#sprint-retrospective)
 
 ## Sprint Backlog
-![sprint-backlog](https://user-images.githubusercontent.com/99446551/163835364-3d62eb70-53b6-4ea6-9f34-59479da937a4.jpg)
+![sprint_backlog_pr4](https://user-images.githubusercontent.com/99320213/163878114-e907b5a7-8206-4ea1-8460-3fd7a33d4b71.png)
 
 1- **Conocer salud del personaje**. Se querrá saber el porcentaje de progreso que lleva el jugador. Tiene mucha importancia para el usuario.  
 2- **Recoger objetos**. Se necesitarán objetos para poder resolver puzzles.  
