@@ -76,3 +76,9 @@ Nuestro producto es un juego que ofrece al jugador conocer el contexto en el que
 En este sprint nos hemos centrado en estas acciones priorizando la base de la jugabilidad del producto. Más adelante se incluirán nuevas funcionalidades en el juego para mejorar la experiencia del usuario.
 
 ## Sprint Retrospective
+
+El equipo se ha mostrado bastante unido y participativo con respecto a la creación de la historia que,  finalmente, ha facilitado todo el trabajo de implementación.
+
+Sin embargo, gran parte de este trabajo se ha centrado al final del propio sprint, realizándose gran parte de este en los últimos días previos a la finalización del Sprint 1.
+
+Esto se podría mejorar con una mejor planificación del conjunto del grupo, creando metas a más corto plazo e incentivando la realización de tareas continuamente.
