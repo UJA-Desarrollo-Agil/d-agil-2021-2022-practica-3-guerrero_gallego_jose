@@ -71,5 +71,8 @@ Inicialmente, se crean las tarjetas en el Product Backlog.
 ## Sprint Planning Final
 
 ## Sprint Review
+Nuestro producto es un juego que ofrece al jugador conocer el contexto en el que transcurre el juego y las diferentes situaciones por las que se pasa durante el tiempo de juego, algunas qualities como la hora real del juego o diferentes objetos que el jugador va almacenando en su inventario, y algunas situaciones de diálogos con otros personajes del juego.
+
+En este sprint nos hemos centrado en estas acciones priorizando la base de la jugabilidad del producto. Más adelante se incluirán nuevas funcionalidades en el juego para mejorar la experiencia del usuario.
 
 ## Sprint Retrospective
