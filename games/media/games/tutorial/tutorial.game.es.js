@@ -154,12 +154,13 @@ undum.game.situations = {
 		<br/>
 		<br/>Está claro que tengo que despistarlos de alguna forma, el problema es que es muy extraño ya que a todos los sitios a los que intento ir, ellos me siguen prácticamente al segundo y van detrás mía, es como si de alguna forma siempre supieran hacia dónde estoy yendo o hacia donde me muevo, no tiene explicación lógica.
 		<br/>
-		<ul class='transient'>\
+		<ul>\
 		<br/><a href='situacion7'>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.</a>
 		`, {
 			enter: function(character, system, from) {
-                system.setQuality("hora", 5);
-            }
+				system.setQuality("hora", 5);
+				system.setQuality("palo", 1);
+			}
 		}
 	),
 
@@ -272,7 +273,7 @@ function guardarNombre() {
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion1";
+undum.game.start = "situacion5";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
