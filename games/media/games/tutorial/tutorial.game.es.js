@@ -41,7 +41,15 @@ undum.game.situations = {
 		<br/>— ¿Qué hago yo en este sitio? – mientras se lleva la mano a la cabeza. Nota una cicatriz de herida por haber recibido un fuerte golpe en la misma.
 		<br/>— Tengo que descubrir qué hago aquí – susurraba mientras se intentaba poner de pie para echar un vistazo por el agujero que había en la roca. Llamar a eso ventana era exagerar. Apenas tenía el tamaño de mi cabeza, como para salir por ahí. 
 		<br/>Notas que algo tira de ti. Miras hacia abajo, y ves que tienes las piernas encadenadas entre sí. La movilidad que tienes es bastante reducida, pero te permite andar y ponerte de pie. Finalmente, consigues acercarte a la ventana para ver tu entorno.
-		<br/>Agua. Mar. Rocas. Agua. Mar. Y más rocas. Algún pájaro volando. Nada más. Era todo lo que podía ver por ese minúsculo agujero.`
+		<br/>Agua. Mar. Rocas. Agua. Mar. Y más rocas. Algún pájaro volando. Nada más. Era todo lo que podía ver por ese minúsculo agujero.
+		<p class='transient'>Pulsa <a href='situacion2'>aquí para continuar...</a></p>`, {
+			enter: function(character, system, from) {
+                system.setCharacterText(
+                    "<p align='center'>Estás bastante desorientado.</p>"
+                );
+                system.setQuality("hora", 0);
+            }
+		}
 	),
 	situacion2: new undum.SimpleSituation(
 		`<h1>El banquete</h1>\
@@ -57,7 +65,12 @@ undum.game.situations = {
 		<br/>— ¿Puedes decirme qué hago aquí? – da un portazo antes de que yo pudiese acabar la frase.
 		<br/>— Bueno, pues nada. No hay manera de averiguar quién soy, dónde estoy y por qué desde aquí dentro – pensó el prisionero. Fue en ese instante, cuando se dio cuenta que la única manera de aclarar todo esto, era saliendo de donde estaba.
 		<br/>Comenzó a comer como un animal, lo más rápido que le permitía su dolorida mandíbula. El pan duro tampoco se dejaba comer bien.
-		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.`
+		<br/>Nada más terminar de comer, lo primero que intentas es quitarte las cadenas que tienes en los tobillos. Es hierro forjado, por lo que no se va a romper fácilmente, a pesar de que tenían marcas de que alguien las intentase abrir antes por fuerza bruta.
+		<p class='transient'>Pulsa <a href='situacion3'>aquí para continuar...</a></p>`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 1);
+            }
+		}
 	),
 	situacion4: new undum.SimpleSituation(
 		`<h1>¿Cuánto llevo aquí?</h1>\
@@ -66,7 +79,11 @@ undum.game.situations = {
 		<p>Diviso una orilla cercana, con una pequeña colina hacia atrás, justo encima de la cueva, y una especie de bosque tropical a ambos lados.\
 		Empiezo a pensar en la idea de explorar un poco, pero ante tanto terreno y con los daños que tengo, \
 		tengo que decidir si <a class='transient' href='situacion4playa'>exploro la playa</a> o <a href='situacion4bosque'>me adentro en alguno de los bosques</a>, \
-		evitando la colina, pues mis maltrechas extremidades me impedirían llegar, por ahora, muy lejos.</p>`
+		evitando la colina, pues mis maltrechas extremidades me impedirían llegar, por ahora, muy lejos.</p>`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 3);
+            }
+		}
 	),
 	situacion4playa: new undum.SimpleSituation(
 		`<h2>El rostro</h2>\
@@ -119,7 +136,11 @@ undum.game.situations = {
 		<p>El terreno me eleva lentamente sobre la isla, es una ascensión cómoda, más observando mi  mala condición. Y la cabeza me sigue doliendo, y el cuerpo lleno de magulladuras. ¿Qué me ha pasado? ¿Cuánto llevo aquí? ¿Quién soy?</p>\
 		<p>Al menos, pienso yo, con lo frondoso de este bosque puedo ocultarme mejor. Aunque eso ya lo había pensado hace unos momentos. Sigue habiendo cocoteros, y otras plantas que no identifico pero que parecen, en casos extremos, comestibles. Bueno, aunque quizás ni lo recuerde.</p>\
 		<p>Mientras mi cabeza divaga, sigo andando y observando el bosque, perdido entre sus pocos claros. A lo que acabo deteniéndome pues observo, a mis pies, un palo de madera con algo de sangre.</p>\
-		<p><a class='transient' href='situacion6'>Continuar</a></p>`
+		<p><a class='transient' href='situacion6'>Continuar</a></p>`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 4);
+            }
+		}
 	),
 	situacion6: new undum.SimpleSituation(
 		`<h1>¿Cómo lo saben?</h1>\
@@ -135,7 +156,11 @@ undum.game.situations = {
 		<br/>
 		<ul class='transient'>\
 		<br/><a href='situacion7'>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.</a>
-		`
+		`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 5);
+            }
+		}
 	),
 
 	situacion7: new undum.SimpleSituation(
@@ -157,7 +182,11 @@ undum.game.situations = {
 		<ul class='transient'>\
 		<br/><a href='situacion8'>Siguiente</a>
 		</ul>\
-		`
+		`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 6);
+            }
+		}
 	),
 
 	situacion8: new undum.SimpleSituation(
@@ -170,7 +199,11 @@ undum.game.situations = {
         <li><a onclick="guardarNombre()" href='situacion811'>Continuar...</a></li>\
         </ul>\
 		<div id=nombreInyectado></div>\
-		`
+		`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 7);
+            }
+		}
 	),
 	situacion811: new undum.SimpleSituation(
 		`<br/>Estoy confundido, el nombre me ha despertado recuerdos pero aún no sé qué hacía en esa celda ni cuánto tiempo llevaba allí.
@@ -217,7 +250,11 @@ undum.game.situations = {
 		<ul class='transient'>\
         <li><a href='situacion1'>Dormirse...</a></li>\
         </ul>\
-		`
+		`, {
+			enter: function(character, system, from) {
+                system.setQuality("hora", 8);
+            }
+		}
 	)
 
 };
@@ -235,13 +272,33 @@ function guardarNombre() {
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "situacion4";
+undum.game.start = "situacion1";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
  * possess. We don't have to be exhaustive, but if we miss one out then
  * that quality will never show up in the character bar in the UI. */
 undum.game.qualities = {
+	hora: new undum.WordScaleQuality(
+        "Hora", ["07:00", "09:00", "10:00", "11:00", "12:00", "14:00", "15:30", "16:30", "18:00"], {
+            priority: "0001",
+            group: 'progreso'
+        }
+    ),
+	trozohierro: new undum.OnOffQuality(
+        "Trozo de hierro", {
+            priority: "0001",
+            group: 'inventario',
+            onDisplay: "&#10003;"
+        }
+    ),
+	palo: new undum.OnOffQuality(
+        "Palo", {
+            priority: "0002",
+            group: 'inventario',
+            onDisplay: "&#10003;"
+        }
+    ),
 };
 
 // ---------------------------------------------------------------------------
@@ -252,12 +309,18 @@ undum.game.qualities = {
  * non-existent group. */
 undum.game.qualityGroups = {
 	// Aquí van los grupos para las qualities
+	progreso: new undum.QualityGroup(null, {
+        priority: "0001"
+    }),
+	inventario: new undum.QualityGroup(null, {
+        priority: "0002"
+    }),
 };
 
 // ---------------------------------------------------------------------------
 /* This function gets run before the game begins. It is normally used
  * to configure the character at the start of play. */
 undum.game.init = function (character, system) {
-	// Función que se ejecuta cuando comienza el juego.
-	system.setCharacterText("<p>You are starting on an exciting journey.</p>");
+	system.setQuality("hora", 0);
+	system.setCharacterText("<p align='center'>ZzzzzZzzZZzzz...</p>");
 };
