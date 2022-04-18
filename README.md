@@ -56,6 +56,15 @@ Inicialmente, se crean las tarjetas en el Product Backlog.
   * [Sprint Retrospective](#sprint-retrospective)
 
 ## Sprint Backlog
+![sprint-backlog](https://user-images.githubusercontent.com/99446551/163835364-3d62eb70-53b6-4ea6-9f34-59479da937a4.jpg)
+
+1- **Conocer salud del personaje**. Se querrá saber el porcentaje de progreso que lleva el jugador. Tiene mucha importancia para el usuario.  
+2- **Recoger objetos**. Se necesitarán objetos para poder resolver puzzles.  
+6- **Personalizar jugador**. Es una tarea sencilla y otorga una mejor experiencia al usuario.  
+11- **Situaciones del juego**. Es la estructura del juego por ello es la más importante a desarrollar.  
+12- **Moverse entre situaciones**. Sin ella no se podría continuar la historia.  
+17- **Desarrollar situación diálogo con otro personaje**. Está a un nivel secundario pero que otorga mucho valor a la historia.  
+
 
 ## Product Backlog Refinement
 
