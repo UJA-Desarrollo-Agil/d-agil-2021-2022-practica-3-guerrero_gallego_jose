@@ -72,6 +72,24 @@ undum.game.situations = {
             }
 		}
 	),
+	situacion3: new undum.SimpleSituation(
+		`<h1>Respira hondo</h1>\
+		<br/>— Tengo que intentar abrirlas como sea, porque no voy a poder romperlas – pensó él.
+		<br/>Mirando por el suelo, no veía nada. Lo único que había era roca. Roca en las paredes, roca en el suelo, roca en el techo. Yo estaba dentro de una gran roca.
+		<br/>Es ahí cuando se empieza a marear un poco, y se acerca a la ventana para intentar tomar un poco de aire fresco. Al acercarse a ese pequeño agujero y tomar una gran cantidad de aire fresco, ve que hay un pequeño y fino trozo de hierro encajado entre los recovecos naturales de la propia piedra.
+		<br/>— ¿Servirá esto para algo? – conforme termina de decirlo, se da cuenta de que puede intentar forzar la cerradura que mantiene unida a la cadena.
+		<br/>Clac. La cerradura de la cadena cede, y se sueltan las cadenas. Había resuelto un problema, pero tenía otro más grande literalmente. La puerta. ¿Cómo podía salir? Obviamente ese agujero no era una opción.
+		<br/>Cuando me acerqué a ver la puerta, me llevé una gran sorpresa. ¡No había ninguna cerradura ni algo que la mantenga cerrada! La empujé un poco para abrir, y no opuso ningún tipo de resistencia.
+		<br/>Nada más salir, vi cómo se estructuraba el lugar donde me encontraba. Era parecido a lo que imaginaba. Un pequeño pasillo, con unas cuantas habitaciones que debían ser similares a las mías.
+		<br/>Para el futuro: Opcion A: escapar, Opcion B: no escapar. El resultado de ambas es el mismo.
+		<br/>Como el pasillo no era largo, veía arena y una gran cantidad de luz proveniente de la entrada.  Tras mirar bien alrededor, veo que no hay nadie viendo, y salgo con la intención de escapar de allí, y averiguar más sobre mí.
+		<br/><p class='transient'>Pulsa <a href='situacion4'>aquí para continuar...</a></p>`, {
+			enter: function(character, system, from) {
+				system.setQuality("trozohierro", 1);
+                system.setQuality("hora", 2);
+            }
+		}
+	),
 	situacion4: new undum.SimpleSituation(
 		`<h1>¿Cuánto llevo aquí?</h1>\
 		<p>Un sol cegante y abrasante se ciñe sobre mí, acabo cubriéndome los ojos un breve rato hasta que acostumbro mi vista a aquel día. Mientras tanto, comienzo a percibir más cosas, poco a poco, palmeras y mucha arena.</p>\
