@@ -107,7 +107,11 @@ undum.game.situations = {
 		`<h2>El rostro</h2>\
 		<p>Comienzo a bajar a la costa, lentamente, pero con buen paso y, mientras observo como se termina de abrir la isla a mis ojos, con el palmeral quedándose atrás, una amplia playa se muestra ante mí.</p>\
 		<p>Dando unos pasos por ella, diviso algunos restos inútiles, pero un gran brillo proveniente de uno de ellos me obliga a acercarme.</p>\
-		<p><a href='situacion4espejo'>Coger el objeto brillante.</a></p>`
+		<p><a href='situacion4espejo'>Coger el objeto brillante.</a></p>`, {
+			enter: function(character, system, from) {
+                document.getElementById('audioOlas').play();
+            }
+		}
 	),
 	situacion4espejo: new undum.SimpleSituation(
 		`<p>Lo cojo con cuidado, pero aún así recibo un pequeño corte en mi mano. Es una especie de espejo, roto por los lados y resquebrajado, pero tengo la oportunidad de conocer algo de mí, mi propio rostro.</p>\
@@ -117,6 +121,7 @@ undum.game.situations = {
 		{
 			actions: {
 				salirplaya: function (character, system, to) {
+					document.getElementById('audioOlas').pause();
 					if (!s4visitadoUno) {
 						s4visitadoUno = true
 						system.write("<p><a href='situacion4bosque'>Continuar al bosque</a></p>");
