@@ -154,13 +154,13 @@ undum.game.situations = {
 		<p>El terreno me eleva lentamente sobre la isla, es una ascensión cómoda, más observando mi  mala condición. Y la cabeza me sigue doliendo, y el cuerpo lleno de magulladuras. ¿Qué me ha pasado? ¿Cuánto llevo aquí? ¿Quién soy?</p>\
 		<p>Al menos, pienso yo, con lo frondoso de este bosque puedo ocultarme mejor. Aunque eso ya lo había pensado hace unos momentos. Sigue habiendo cocoteros, y otras plantas que no identifico pero que parecen, en casos extremos, comestibles. Bueno, aunque quizás ni lo recuerde.</p>\
 		<p>Mientras mi cabeza divaga, sigo andando y observando el bosque, perdido entre sus pocos claros. A lo que acabo deteniéndome pues observo, a mis pies, un palo de madera con algo de sangre.</p>\
-		<p><a class='transient' href='situacion6'>Continuar</a></p>`, {
+		<p><a class='transient' href='situacion6a'>Continuar</a></p>`, {
 			enter: function(character, system, from) {
                 system.setQuality("hora", 4);
             }
 		}
 	),
-	situacion6: new undum.SimpleSituation(
+	situacion6a: new undum.SimpleSituation(
 		`<h1>¿Cómo lo saben?</h1>\
         <br/>Mientras estoy cogiendo ese palo de madera asqueroso lleno de sangre de a saber quién o qué, prefiero no imaginarlo, que estaba en el bosque tirado en una posición un tanto sospechosa, noto unas voces que me resultan familiares un poco más adentro del bosque.
 		<br/>
@@ -168,21 +168,33 @@ undum.game.situations = {
 		<br/>
 		<br/>— ¡Número 4!
 		<br/>
-		<br/>Cuando me quiero dar cuenta, ya me están mirando y se dan cuenta de que estoy ahí escondido. Así que empiezo a correr como un loco huyendo de ellos e intentando perderlos. Primero decidí introducirme un poco más adentro del bosque dando la vuelta a los guardas, pero ellos lo vieron venir y se han ido hacia el mismo lado, ¡qué raro!
-		<br/>
-		<br/>Está claro que tengo que despistarlos de alguna forma, el problema es que es muy extraño ya que a todos los sitios a los que intento ir, ellos me siguen prácticamente al segundo y van detrás mía, es como si de alguna forma siempre supieran hacia dónde estoy yendo o hacia donde me muevo, no tiene explicación lógica.
-		<br/>
 		<ul>\
-		<br/><a href='situacion7'>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.</a>
+		<br/>Cuando me quiero dar cuenta, ya me están mirando y se dan cuenta de que estoy ahí escondido.<a href='situacion6b'> Así que empiezo a correr como un loco huyendo de ellos e intentando perderlos.</a>
 		`, {
 			enter: function(character, system, from) {
 				system.setQuality("hora", 5);
 				system.setQuality("palo", 1);
 			}
-		}
-	),
+	}
+		),
 
-	situacion7: new undum.SimpleSituation(
+
+		situacion6b: new undum.SimpleSituation(
+			`<h1>¡Corre!</h1>\
+		<br/>Primero decidí introducirme un poco más adentro del bosque dando la vuelta a los guardas, pero ellos lo vieron venir y se han ido hacia el mismo lado, qué raro...
+		<br/>
+		<br/>Está claro que tengo que despistarlos de alguna forma, el problema es que es muy extraño ya que a todos los sitios a los que intento ir, ellos me siguen prácticamente al segundo y van detrás mía, es como si de alguna forma siempre supieran hacia dónde estoy yendo o hacia donde me muevo, no tiene explicación lógica.
+		<br/>
+		<ul>\
+		<br/><a href='situacion7a'>Finalmente decido ir hacia la colina que antes había visto, a ver si cogiendo un poco de altura y escondiéndome por las rocas consigo despistarlos.</a>
+		`, {
+			enter: function (character, system, from) {
+				system.setQuality("hora", 5);
+			}
+		}
+		),
+
+	situacion7a: new undum.SimpleSituation(
 		`<h1>Hora de ser ingenioso</h1>\
         <br/>Es increíble, tome el camino que tome siempre me siguen y siempre adivinan hacia qué lado voy y qué caminos cojo exactamente sin dudarlo, no me entra en la cabeza.
 		<br/>
@@ -190,8 +202,21 @@ undum.game.situations = {
 		<br/>
 		<br/>— ¿Qué pasa? ¿Por qué me seguís, qué queréis de mí? – Grité mientras corría aún más, intentando zafarme de ellos. Pero resultaba inútil.
 		<br/>
-		<br/>Al llegar a la colina parece que los he despistado. Antes de entrar a una cueva que hay ahí veo que hay dos caminos, uno para entrar a ella y otro que va hacia la izquierda de la entrada, entonces decido usar de una vez la mente y anticiparme a ellos.
-		<br/>
+		<ul>\
+		<br/>Al llegar a la colina parece que los he despistado. Antes de entrar a una cueva que hay ahí veo que hay dos caminos,<a href='situacion7dentro'> uno para entrar a ella </a> y otro que va <a href='situacion7izq'>hacia la izquierda de la entrada </a> , debo decidir dónde ir.
+		
+		
+		
+		`, {
+			enter: function(character, system, from) {
+				system.setQuality("hora", 6);
+				system.setQuality("palo", 0)
+            }
+		}
+	),
+
+	situacion7dentro: new undum.SimpleSituation(
+		`<h1>Vamos hacia dentro</h1>\
 		<br/>Dejo el palo asqueroso que había encontrado antes al principio del camino hacia la izquierda para que piensen que he ido por ahí y se me ha caído, mientras que yo realmente entraré a la cueva a refugiarme y así los despistaré.
 		<br/>
 		<br/>Me adentro a la cueva en busca de algo que me dé esperanzas de cómo salir de esta pesadilla o aunque sea buscar algo donde refugiarme de ellos. Esta cueva parece segura, no hay peligro aparente, aunque la verdad que está un poco oscura, como es normal.
@@ -202,10 +227,25 @@ undum.game.situations = {
 		<br/><a href='situacion8'>Siguiente</a>
 		</ul>\
 		`, {
-			enter: function(character, system, from) {
-                system.setQuality("hora", 6);
-            }
+		enter: function (character, system, from) {
+			system.setQuality("hora", 6);
 		}
+	}
+	),
+
+	situacion7izq: new undum.SimpleSituation(
+		`<h1>Vaya, no hay salida</h1>\
+        <br/>Decido ir hacia la izquierda de la cueva en busca de más sitios donde refugiarme.
+		<br/>
+		<ul>\
+		<br/>El problema viene cuando al girar una roca que había en el camino me encuentro con que se acaba la isla, hay más playa en esa dirección, así que no me queda otra que <a href='situacion7dentro'> entrar en la cueva </a>.
+		
+		
+		`, {
+		enter: function (character, system, from) {
+			system.setQuality("hora", 6);
+		}
+	}
 	),
 
 	situacion8: new undum.SimpleSituation(
