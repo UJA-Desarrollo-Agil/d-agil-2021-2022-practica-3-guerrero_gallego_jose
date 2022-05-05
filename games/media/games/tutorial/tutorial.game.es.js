@@ -32,6 +32,7 @@ var nombre = "Charles"; // Por defecto
 undum.game.situations = {
 	situacion1: new undum.SimpleSituation(
 		`<h1>Entre rocas</h1>\
+		<img src='media/img/island.png' class='float_right'>\
         Un escalofrío que recorre tu cuerpo entero. Notas cómo va desde la punta de los dedos de los pies hasta el último pelo de tu cabeza.
 		<br/>Es lo único que eres capaz de sentir. Has perdido la noción del tiempo y espacio. No recuerdas absolutamente nada de ti, ni del lugar en el que te encuentras.
 		<br/>Comienzas a abrir los ojos por la luz que hay en el sitio donde estás. Es como una pequeña cueva. Tan solo hay un agujero por el que apenas entra luz, protegido con dos grandes barrotes, y una puerta de madera reforzada con hierro. Las paredes, eran de roca. Además, había un montón de líneas en las paredes, como si alguien estuviera tratando de contar algo. 
@@ -44,6 +45,7 @@ undum.game.situations = {
 		<br/>Agua. Mar. Rocas. Agua. Mar. Y más rocas. Algún pájaro volando. Nada más. Era todo lo que podía ver por ese minúsculo agujero.
 		<p class='transient'>Pulsa <a href='situacion2'>aquí para continuar...</a></p>`, {
 			enter: function(character, system, from) {
+				document.getElementById('audioOlas').pause();
                 system.setCharacterText(
                     "<p align='center'>Estás bastante desorientado.</p>"
                 );
@@ -53,6 +55,7 @@ undum.game.situations = {
 	),
 	situacion2: new undum.SimpleSituation(
 		`<h1>El banquete</h1>\
+		<img src='media/img/bolsa.jpg' class='float_right imagen-situacion'>\
         <br/>— ¡Número 3! – otra vez se deshizo el silencio. Me giré rápidamente. Esta vez una grave y fuerte voz se había acercado bastante al sitio donde yo estaba. ¿Estaban matando o hiriendo a todos los que estábamos ahí?, ¿sería yo el siguiente?
 		<br/>Me estoy preparando para lo peor. Ese golpe, que vino seguido de un grito de dolor insoportable y agonizante. Espero, espero, y espero un poco más, pero nunca llega.
 		<br/>— ¡Número 4!
@@ -74,6 +77,7 @@ undum.game.situations = {
 	),
 	situacion3: new undum.SimpleSituation(
 		`<h1>Respira hondo</h1>\
+		<img src='media/img/barras-hierro.jpg' class='float_left imagen-situacion'>\
 		<br/>— Tengo que intentar abrirlas como sea, porque no voy a poder romperlas – pensó él.
 		<br/>Mirando por el suelo, no veía nada. Lo único que había era roca. Roca en las paredes, roca en el suelo, roca en el techo. Yo estaba dentro de una gran roca.
 		<br/>Es ahí cuando se empieza a marear un poco, y se acerca a la ventana para intentar tomar un poco de aire fresco. Al acercarse a ese pequeño agujero y tomar una gran cantidad de aire fresco, ve que hay un pequeño y fino trozo de hierro encajado entre los recovecos naturales de la propia piedra.
@@ -92,6 +96,7 @@ undum.game.situations = {
 	),
 	situacion4: new undum.SimpleSituation(
 		`<h1>¿Cuánto llevo aquí?</h1>\
+		<img src='media/img/sol.jpg' class='float_right imagen-situacion'>\
 		<p>Un sol cegante y abrasante se ciñe sobre mí, acabo cubriéndome los ojos un breve rato hasta que acostumbro mi vista a aquel día. Mientras tanto, comienzo a percibir más cosas, poco a poco, palmeras y mucha arena.</p>\
 		<p>Calor. Mucho calor. La lengua seca. No sé ya que es lo que me afecta de verdad. Quizás tenga calor por estar deshidratado. O tengo calor y me estoy deshidratando rápidamente. No lo sé. No paro de pensar, pero no sé lo que pensar con claridad. Calor. Mucho calor, y la lengua seca…</p>\
 		<p>Diviso una orilla cercana, con una pequeña colina hacia atrás, justo encima de la cueva, y una especie de bosque tropical a ambos lados.\
@@ -105,6 +110,7 @@ undum.game.situations = {
 	),
 	situacion4playa: new undum.SimpleSituation(
 		`<h2>El rostro</h2>\
+		<img src='media/img/playa.png' class='float_left imagen-situacion'>\
 		<p>Comienzo a bajar a la costa, lentamente, pero con buen paso y, mientras observo como se termina de abrir la isla a mis ojos, con el palmeral quedándose atrás, una amplia playa se muestra ante mí.</p>\
 		<p>Dando unos pasos por ella, diviso algunos restos inútiles, pero un gran brillo proveniente de uno de ellos me obliga a acercarme.</p>\
 		<p><a href='situacion4espejo'>Coger el objeto brillante.</a></p>`, {
@@ -134,6 +140,7 @@ undum.game.situations = {
 	),
 	situacion4bosque: new undum.SimpleSituation(
 		`<h2>El bosque de la izquierda</h2>\
+		<img src='media/img/cocotero.jpg' class='float_left imagen-situacion'>\
 		<p>Ando hacia la izquierda de la cueva, dejando la arena a mis pies dar paso a un cúmulo de palos, hierbajos y tierra, mientras que el sol se empieza a esconder entre las copas de las palmeras.</p>\
 		<p>Me acerco a un cocotero rodeado de cocos ya abiertos y semivacíos. Este está un poco débil, ya que lo agito con las fuerzas que tengo y desprende otro coco.</p>\
 		<p>Cojo el coco y con algo de fuerza y daño, consigo abrirlo y beber de él. Debo seguir explorando, y vuelvo sobre mis pasos sin saber muy bien cómo continuar.</p>\
@@ -153,6 +160,7 @@ undum.game.situations = {
 	),
 	situacion5: new undum.SimpleSituation(
 		`<h1>El bosque de la derecha</h1>\
+		<img src='media/img/cueva.jpg' class='float_right imagen-situacion'>\
 		<p>Sigo pensando para mis adentros, ahora que la boca ya me sabe a algo más que al ambiente isleño que tengo presente, en seguir una ruta para ver si encuentro algo de civilización, o algo que responda a unas preguntas que ni siquiera tengo yo claras.Mi mente recuerda que, a la derecha de la entrada de la cueva, había otro bosque que parecía subir hacia la colina que había tras la cueva. Pienso que es una buena idea, pues me ofrece más sombra que el otro bosque con cocoteros, y siendo más frondosa quizás me ofrezca la oportunidad de esconderme y escapar de aquellos que me tenían prisionero en la cueva. Pero, ¿dónde están?</p>\
 		<p>Mi mente recuerda que, a la derecha de la entrada de la cueva, había otro bosque que parecía subir hacia la colina que había tras la cueva. Pienso que es una buena idea, pues me ofrece más sombra que el otro bosque con cocoteros, y siendo más frondosa quizás me ofrezca la oportunidad de esconderme y escapar de aquellos que me tenían prisionero en la cueva. Pero, ¿dónde están?</p>\
 		<p>Finalmente, decido a ponerme en marcha con mis cansados y doloridos pies hacia dicho bosque, dejando atrás la caliente zona de arena de playa y acostumbrando rápidamente mi cuerpo y vista a andar sobre tierra algo húmeda, cosa que agradezco.</p>\
@@ -167,6 +175,7 @@ undum.game.situations = {
 	),
 	situacion6a: new undum.SimpleSituation(
 		`<h1>¿Cómo lo saben?</h1>\
+		<img src='media/img/palo-sangre.jpg' class='float_right imagen-situacion'>\
         <br/>Mientras estoy cogiendo ese palo de madera asqueroso lleno de sangre de a saber quién o qué, prefiero no imaginarlo, que estaba en el bosque tirado en una posición un tanto sospechosa, noto unas voces que me resultan familiares un poco más adentro del bosque.
 		<br/>
 		<br/>Creo que son de la gente que me tenía encerrado en aquel zulo de roca, me están buscando. Intento esconderme y por fin confirmo mis sospechas de que son ellos, ya que llevan las mismas vestiduras pero de otro color, parece que son como el grupo que está vigilando los alrededores y me están buscando.
@@ -186,6 +195,7 @@ undum.game.situations = {
 
 		situacion6b: new undum.SimpleSituation(
 			`<h1>¡Corre!</h1>\
+			<img src='media/img/colina.png' class='float_left imagen-situacion'>\
 		<br/>Primero decidí introducirme un poco más adentro del bosque dando la vuelta a los guardas, pero ellos lo vieron venir y se han ido hacia el mismo lado, qué raro...
 		<br/>
 		<br/>Está claro que tengo que despistarlos de alguna forma, el problema es que es muy extraño ya que a todos los sitios a los que intento ir, ellos me siguen prácticamente al segundo y van detrás mía, es como si de alguna forma siempre supieran hacia dónde estoy yendo o hacia donde me muevo, no tiene explicación lógica.
@@ -201,6 +211,7 @@ undum.game.situations = {
 
 	situacion7a: new undum.SimpleSituation(
 		`<h1>Hora de ser ingenioso</h1>\
+		<img src='media/img/dos-caminos.jpg' class='float_right imagen-situacion'>\
         <br/>Es increíble, tome el camino que tome siempre me siguen y siempre adivinan hacia qué lado voy y qué caminos cojo exactamente sin dudarlo, no me entra en la cabeza.
 		<br/>
 		<br/>— ¡Quieto ahí número 4! – Exclamó uno de los guardias mientras corrían hacia mí.
@@ -222,6 +233,7 @@ undum.game.situations = {
 
 	situacion7dentro: new undum.SimpleSituation(
 		`<h1>Vamos hacia dentro</h1>\
+		<img src='media/img/cueva-oscura.jpg' class='float_right imagen-situacion'>\
 		<br/>Dejo el palo asqueroso que había encontrado antes al principio del camino hacia la izquierda para que piensen que he ido por ahí y se me ha caído, mientras que yo realmente entraré a la cueva a refugiarme y así los despistaré.
 		<br/>
 		<br/>Me adentro a la cueva en busca de algo que me dé esperanzas de cómo salir de esta pesadilla o aunque sea buscar algo donde refugiarme de ellos. Esta cueva parece segura, no hay peligro aparente, aunque la verdad que está un poco oscura, como es normal.
@@ -255,6 +267,7 @@ undum.game.situations = {
 
 	situacion8: new undum.SimpleSituation(
 		`<h1>Respuestas</h1>\
+		<img src='media/img/pregunta.png' class='float_right imagen-situacion'>\
         <br/>— Por fin te tengo – Exclamó el guardia. Se acerca y me agarra del hombro.
 		<br/>
 		<br/><label for="nombreInput">Inserta tu nombre</label>
@@ -308,6 +321,7 @@ undum.game.situations = {
 	),
 	situacion9: new undum.SimpleSituation(
 		`<h1>Déjà vu</h1>\
+		<img src='media/img/cueva-final.png' class='float_left imagen-situacion'>\
         <br/>Consigo abrir un ojo mientras escucho el sonido de las olas romper sin cesar, parece que he vuelto a la celda dónde estaba.
 		<br/>Mientras se acerca una sombra consigo deducir por sus vestimentas que es un médico. Me empieza a susurrar pero no consigo entender lo que me dice, me aplica un líquido dónde el guardia me había golpeado previamente.
 		<br/>Se me comienza a cerrar el ojo que tenía medio abierto y a penas puedo mantener la conciencia desde que me aplicó ese líquido. Conforme me duermo siento un…
@@ -316,6 +330,7 @@ undum.game.situations = {
         </ul>\
 		`, {
 			enter: function(character, system, from) {
+				document.getElementById('audioOlas').play();
                 system.setQuality("hora", 8);
             }
 		}

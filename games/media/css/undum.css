@@ -355,3 +355,10 @@ img.float_left {
 #menu {
     display: none;
 }
+
+.imagen-situacion{
+
+    max-width: 300px;
+    max-height: 300px;
+
+}
