@@ -137,24 +137,19 @@ _Sprint Backlog_
 
 ## Product Backlog Refinement PR5
 
-![backlog-refinement](https://user-images.githubusercontent.com/99446551/163878283-52ce050c-5a69-47e8-872f-d185a049eb9a.jpg)  
+![refinement](https://user-images.githubusercontent.com/99446551/167265972-baef13dc-143c-4407-9771-bb12274868c1.png)  
 _Product Backlog con las nuevas adiciones_
 
-Se han desglosado las historias de usuario en las siguientes tareas:
+Se han desglosado las historias de usuario en las siguientes tareas (las propias HU serán tareas):
 
-- 1.1 Limpiar código del proyecto  
-- 1.2 Añadir quality para el progresa (hora del día)  
-- 2.1 Recoger trozo hierro de la situación 3  
-- 2.2 Recoger palo de la situación 6  
-- 11.1 Desarrollar situación 1  
-- 11.2 Desarrollar situación 2  
-- 11.3 Desarrollar situación 3  
-- 11.4 Desarrollar situación 4  
-- 11.5 Desarrollar situación 5  
-- 11.6 Desarrollar situación 6  
-- 11.7 Desarrollar situación 7  
-- 11.8 Desarrollar situación 8  
-- 11.9 Desarrollar situación 9  
+- 3 Acción "mirar detalladamente"  
+- 5 Música de ambiente para algunas situaciones  
+- 7 Uso de Landing Page  
+- 13 Usar objetos para puzzles  
+- 14 Complicar situaciones  
+- 15 Juego online  
+- 16 Modificar CSS del juego original  
+- 18 Introducir imagen descriptiva a cada situación  
 
 ## Sprint Planning Final PR5
 
