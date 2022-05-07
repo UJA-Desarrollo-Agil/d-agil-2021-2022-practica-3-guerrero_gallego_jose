@@ -165,8 +165,9 @@ Se han desglosado las historias de usuario en las siguientes tareas (las propias
 
 ## Sprint Planning Final PR5
 
-Así ha quedado nuestro tablero después de relizar las tareas:
-![image](https://user-images.githubusercontent.com/99610212/163878759-9d98ea91-86d2-4c8b-be3b-f521a9952cb0.png)  
+Así ha quedado nuestro tablero después de relizar las tareas:  
+  
+![planningFinal](https://user-images.githubusercontent.com/99446551/167266352-81b43c55-3c5c-4b1d-b741-720ed8188d98.png)  
 _Estado final de este Sprint en el tablero de Trello_
 
 ## Sprint Review PR5
