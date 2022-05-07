@@ -124,16 +124,28 @@ Esto se podría mejorar con una mejor planificación del conjunto del grupo, cre
   - [Sprint Retrospective PR5](#sprint-retrospective-pr5)
 
 ## Sprint Backlog PR5
+![sprint_backlong_pr5](https://user-images.githubusercontent.com/99320213/167265432-6e77a8fe-5577-4875-a4a0-7e6e1ca0daa5.png)
 
-![sprint_backlog_pr4](https://user-images.githubusercontent.com/99320213/163878114-e907b5a7-8206-4ea1-8460-3fd7a33d4b71.png)  
-_Sprint Backlog_
+### Historias elegidas
+3- **Acción "mirar detalladamente"**. El usuario podrá recibir información o pistas sobre alguna situación del juego. Se ha escogido porque aporta valor a la experiencia de juego.  
+5- **Música de ambiente para algunas situaciones**. La música proporciona una mejor inmersión en el juego.  
+7- **Uso de Landing Page**. Es más atractivo para los usuarios tener una página con una breve introducción justo antes de entrar al juego.  
+13- **Usar objetos para puzzles**. Es importante porque aporta un poco de dificultad a la historia del juego.  
+14- **Complicar situaciones**. Si la historia es demasiado simple, el jugador se aburrirá. Si se le pone algún tipo de reto a la misma, será más interesante.  
+15- **Juego online**. Permite a los jugadores que puedan acceder desde cualquier parte, sin necesidad de tener conocimientos técnicos.  
+16- **Modificar CSS del juego original**. La parte estética es bastante importante. Es por eso que se ha considerado importante, además de ajustar más la estética a la historia que se cuenta.  
+18- **Introducir imagen descriptiva a cada situación**. Al igual que la música, esto proporciona un mejor ambiente y una mejor inmersión al juego.  
 
-1- **Conocer salud del personaje**. Se querrá saber el porcentaje de progreso que lleva el jugador. Tiene mucha importancia para el usuario.  
-2- **Recoger objetos**. Se necesitarán objetos para poder resolver puzzles.  
-6- **Personalizar jugador**. Es una tarea sencilla y otorga una mejor experiencia al usuario.  
-11- **Situaciones del juego**. Es la estructura del juego por ello es la más importante a desarrollar.  
-12- **Moverse entre situaciones**. Sin ella no se podría continuar la historia.  
-17- **Desarrollar situación diálogo con otro personaje**. Está a un nivel secundario pero que otorga mucho valor a la historia.  
+### Historias descartadas
+Se ha decidido no incorporarlas al backlog de este sprint debido a que la complejidad/trabajo que estas mismas tenían, no compensaba con el valor que aportan al juego.
+
+4- **Vídeos para ayuda en la historia**.  
+8- **Sistema de autenticación**.  
+9- **Recuperar partida desde otro dispositivo/navegador**  
+10- **Ranking jugadores**  
+19- **El jugador podrá solicitar ayuda al juego y recibirá información que le sirva para entender el juego y lograr llegar al final del mismo**  
+20- **El juego estará disonible en español y otro idioma**  
+21- **Ayuda en función del contexto**  
 
 ## Product Backlog Refinement PR5
 
