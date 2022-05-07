@@ -166,7 +166,13 @@ _Estado final de este Sprint en el tablero de Trello_
 
 Nuestro producto es un juego que ofrece al jugador conocer el contexto en el que transcurre el juego y las diferentes situaciones por las que se pasa durante el tiempo de juego, algunas qualities como la hora real del juego o diferentes objetos que el jugador va almacenando en su inventario, y algunas situaciones de diálogos con otros personajes del juego.
 
-En este sprint nos hemos centrado en estas acciones priorizando la base de la jugabilidad del producto. Más adelante se incluirán nuevas funcionalidades en el juego para mejorar la experiencia del usuario.
+En este sprint hemos conseguido terminar las historias de usuario de incluir la acción mirar detalladamente, usar objetos para puzzles, hacer que el juego sea online, complicar las situaciones, usar una landing page, modificar el CSS del juego original, introducir imágenes descriptivas a cada situación e introducir música ambiente.
+
+El usuario ahora puede experimentar el juego de una manera más inmersiva en la historia con las fotos y una mayor dificultad de este. Además podrá jugar online al juego, recoger objetos, mirar detalladamente algunos de ellos y usarlos para puzzles o para salir de diferentes situaciones.
+
+Se ha tenido una mayor dificultad en la de hacer la landing page porque había que modificar el script.
+
+Hemos podido terminar todas las historias de usuario que habíamos planteado.
 
 ## Sprint Retrospective PR5
 
