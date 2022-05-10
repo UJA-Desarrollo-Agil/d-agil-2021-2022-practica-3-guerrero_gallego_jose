@@ -184,8 +184,8 @@ Hemos podido terminar todas las historias de usuario que habíamos planteado.
 
 ## Sprint Retrospective PR5
 
-El equipo se ha mostrado bastante unido y participativo con respecto a la creación de la historia que,  finalmente, ha facilitado todo el trabajo de implementación.
+El desarrollo de este sprint, al principio, se preveía mucho mejor organizado que el anterior, pues las tarjetas y el flujo de trabajo ya estaba asentado. Sin embargo, con el transcurso de las dailys aparecieron algunos imprevistos personales (salud principalmente) que mostraron que el trabajo se podía volver a estancar como pasó en el sprint anterior.
 
-Sin embargo, gran parte de este trabajo se ha centrado al final del propio sprint, realizándose gran parte de este en los últimos días previos a la finalización del Sprint 1.
+Sin embargo, una vez más, todas las tareas planificadas y asignadas para el presente sprint no han presentado ningún problema añadido, ni conflictos en git, pues cada uno tocaba partes del proyecto que no se pisaban con las de otros.
 
-Esto se podría mejorar con una mejor planificación del conjunto del grupo, creando metas a más corto plazo e incentivando la realización de tareas continuamente.
+No han habido conflictos entre los compañeros, es más, se buscaba activamente la ayuda y revisión del trabajo de otros con los pull requests. Todo el trabajo visual (CSS) y títulos ha sido consensuado por todos.
