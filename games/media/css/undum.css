@@ -1,5 +1,5 @@
 body {
-    background: #170804 url("../img/fondo_pared_roca.jpg") repeat left top;
+    background: #170804 url("../img/page_bg.jpg") repeat-x left top;
     font-family: Palatino, Times, "Times New Roman", serif;
     font-size: 18px;
     line-height: 1.6em;
@@ -22,22 +22,22 @@ body {
 }
 #title {
     max-width: 28em;
-    background: #e6e6c6 url("../img/barrotes.jpg") repeat -1.1em -1.1em;
+    background: #e6e6c6 url("../img/title_bg.jpg") repeat -1.1em -1.1em;
     margin: 2.2em auto 1.1em auto;
     padding: 1.7em;
     border: 1.1em solid rgba(0,0,0,0.25);
     cursor: pointer; /* Until we click to start. */
 }
-    #title .label {
-        overflow: hidden;
-        background: #e6e6c6 url("../img/fondo_papel_antiguo.jpg") repeat left top;
-        padding: 2.0em;
-        margin: auto;
-        max-width: 18em;
-        -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
-        box-shadow: 0 0 4px rgba(0,0,0,0.4);
-        position: relative;
-    }
+#title .label {
+    overflow: hidden;
+    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
+    padding: 2.0em;
+    margin: auto;
+    max-width: 18em;
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.4);
+            box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    position: relative;
+}
 #title h1 {
     font-size: 1.6em;
     line-height: 1.4em;
@@ -96,7 +96,7 @@ body {
 #content_wrapper {
     max-width: 28em;
     position: relative;
-    background: #e6e6c6 url("../img/fondo_papel_antiguo.jpg") repeat left top;
+    background: #e6e6c6 url("../img/text_bg.jpg") repeat left top;
     margin: 0.6em auto 1.1em auto;
     padding: 2.8em;
     display: none; /* Shown by Javascript */
@@ -210,7 +210,7 @@ img.float_left {
 .tools {
     padding: 0.6em;
     width: 8.9em;
-    background: #cec3ae url("../img/fondo_papel_antiguo.jpg") repeat left top;
+    background: #cec3ae url("../img/tools_bg.jpg") repeat left top;
     position: absolute;
 }
 .tools p {
@@ -354,11 +354,4 @@ img.float_left {
 }
 #menu {
     display: none;
-}
-
-.imagen-situacion{
-
-    max-width: 300px;
-    max-height: 300px;
-
 }
