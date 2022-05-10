@@ -110,3 +110,82 @@ El equipo se ha mostrado bastante unido y participativo con respecto a la creaci
 Sin embargo, gran parte de este trabajo se ha centrado al final del propio sprint, realizándose gran parte de este en los últimos días previos a la finalización del Sprint 1.
 
 Esto se podría mejorar con una mejor planificación del conjunto del grupo, creando metas a más corto plazo e incentivando la realización de tareas continuamente.
+
+# Práctica 5 - Sprint 2
+
+## Índice PR5
+
+- [Práctica 5](#pr-ctica-5)
+  - [Índice PR5](#-ndice-pr5)
+  - [Sprint Backlog PR5](#sprint-backlog-pr5)
+  - [Product Backlog Refinement PR5](#product-backlog-refinement-pr5)
+  - [Sprint Planning Final PR5](#sprint-planning-final-pr5)
+  - [Sprint Review PR5](#sprint-review-pr5)
+  - [Sprint Retrospective PR5](#sprint-retrospective-pr5)
+
+## Sprint Backlog PR5
+![sprint_backlong_pr5](https://user-images.githubusercontent.com/99320213/167265432-6e77a8fe-5577-4875-a4a0-7e6e1ca0daa5.png)
+
+### Historias elegidas
+3- **Acción "mirar detalladamente"**. El usuario podrá recibir información o pistas sobre alguna situación del juego. Se ha escogido porque aporta valor a la experiencia de juego.  
+5- **Música de ambiente para algunas situaciones**. La música proporciona una mejor inmersión en el juego.  
+7- **Uso de Landing Page**. Es más atractivo para los usuarios tener una página con una breve introducción justo antes de entrar al juego.  
+13- **Usar objetos para puzzles**. Es importante porque aporta un poco de dificultad a la historia del juego.  
+14- **Complicar situaciones**. Si la historia es demasiado simple, el jugador se aburrirá. Si se le pone algún tipo de reto a la misma, será más interesante.  
+15- **Juego online**. Permite a los jugadores que puedan acceder desde cualquier parte, sin necesidad de tener conocimientos técnicos.  
+16- **Modificar CSS del juego original**. La parte estética es bastante importante. Es por eso que se ha considerado importante, además de ajustar más la estética a la historia que se cuenta.  
+18- **Introducir imagen descriptiva a cada situación**. Al igual que la música, esto proporciona un mejor ambiente y una mejor inmersión al juego.  
+
+### Historias descartadas
+Se ha decidido no incorporarlas al backlog de este sprint debido a que la complejidad/trabajo que estas mismas tenían, no compensaba con el valor que aportan al juego.
+
+4- **Vídeos para ayuda en la historia**.  
+8- **Sistema de autenticación**.  
+9- **Recuperar partida desde otro dispositivo/navegador**  
+10- **Ranking jugadores**  
+19- **El jugador podrá solicitar ayuda al juego y recibirá información que le sirva para entender el juego y lograr llegar al final del mismo**  
+20- **El juego estará disonible en español y otro idioma**  
+21- **Ayuda en función del contexto**  
+
+## Product Backlog Refinement PR5
+
+![refinement](https://user-images.githubusercontent.com/99446551/167265972-baef13dc-143c-4407-9771-bb12274868c1.png)  
+_Product Backlog con las nuevas adiciones_
+
+Se han desglosado las historias de usuario en las siguientes tareas (las propias HU serán tareas):
+
+- 3 Acción "mirar detalladamente"  
+- 5 Música de ambiente para algunas situaciones  
+- 7 Uso de Landing Page  
+- 13 Usar objetos para puzzles  
+- 14 Complicar situaciones  
+- 15 Juego online  
+- 16 Modificar CSS del juego original  
+- 18 Introducir imagen descriptiva a cada situación  
+
+## Sprint Planning Final PR5
+
+Así ha quedado nuestro tablero después de relizar las tareas:  
+  
+![planningFinal](https://user-images.githubusercontent.com/99446551/167266352-81b43c55-3c5c-4b1d-b741-720ed8188d98.png)  
+_Estado final de este Sprint en el tablero de Trello_
+
+## Sprint Review PR5
+
+Nuestro producto es un juego que ofrece al jugador conocer el contexto en el que transcurre el juego y las diferentes situaciones por las que se pasa durante el tiempo de juego, algunas qualities como la hora real del juego o diferentes objetos que el jugador va almacenando en su inventario, y algunas situaciones de diálogos con otros personajes del juego.
+
+En este sprint hemos conseguido terminar las historias de usuario de incluir la acción mirar detalladamente, usar objetos para puzzles, hacer que el juego sea online, complicar las situaciones, usar una landing page, modificar el CSS del juego original, introducir imágenes descriptivas a cada situación e introducir música ambiente.
+
+El usuario ahora puede experimentar el juego de una manera más inmersiva en la historia con las fotos y una mayor dificultad de este. Además podrá jugar online al juego, recoger objetos, mirar detalladamente algunos de ellos y usarlos para puzzles o para salir de diferentes situaciones.
+
+Se ha tenido una mayor dificultad en la de hacer la landing page porque había que modificar el script.
+
+Hemos podido terminar todas las historias de usuario que habíamos planteado.
+
+## Sprint Retrospective PR5
+
+El desarrollo de este sprint, al principio, se preveía mucho mejor organizado que el anterior, pues las tarjetas y el flujo de trabajo ya estaba asentado. Sin embargo, con el transcurso de las dailys aparecieron algunos imprevistos personales (salud principalmente) que mostraron que el trabajo se podía volver a estancar como pasó en el sprint anterior.
+
+Sin embargo, una vez más, todas las tareas planificadas y asignadas para el presente sprint no han presentado ningún problema añadido, ni conflictos en git, pues cada uno tocaba partes del proyecto que no se pisaban con las de otros.
+
+No han habido conflictos entre los compañeros, es más, se buscaba activamente la ayuda y revisión del trabajo de otros con los pull requests. Todo el trabajo visual (CSS) y títulos ha sido consensuado por todos.
