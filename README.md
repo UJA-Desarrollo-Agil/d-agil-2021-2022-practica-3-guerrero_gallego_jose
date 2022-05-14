@@ -189,3 +189,40 @@ El desarrollo de este sprint, al principio, se preveía mucho mejor organizado q
 Sin embargo, una vez más, todas las tareas planificadas y asignadas para el presente sprint no han presentado ningún problema añadido, ni conflictos en git, pues cada uno tocaba partes del proyecto que no se pisaban con las de otros.
 
 No han habido conflictos entre los compañeros, es más, se buscaba activamente la ayuda y revisión del trabajo de otros con los pull requests. Todo el trabajo visual (CSS) y títulos ha sido consensuado por todos.
+
+# Práctica 6 - Métricas
+
+## Índice PR6
+
+- [Práctica 6](#pr-ctica-6)
+  - [Índice PR6](#-ndice-pr6)
+  - [Enlace hoja de cálculo](#enlace-hoja-de-cálculo)
+  - [Tablas](#tablas)
+  - [Graficas](#graficas)
+  - [Conclusiones PR6](#conclusiones-pr6)
+
+## Enlace hoja de cálculo
+El enlace a la hoja de cálculo usada para las tablas y las distintas gráficas es: https://docs.google.com/spreadsheets/d/1ONwKMdNKjywDeK5TRJzhYeLM19LHJi2Vj9boQowpblM/edit?usp=sharing
+
+## Tablas
+![image](https://user-images.githubusercontent.com/99320213/168443209-0536a494-1eb2-42d7-a3ed-72d5a9ad054d.png)  
+_Tabla general_
+
+![Tabla de velocidades](https://user-images.githubusercontent.com/99320213/168443215-c37cc469-8d4f-4b43-a2d9-1f02e4c9b593.png)  
+_Tabla de velocidades_
+
+## Graficas
+![image](https://user-images.githubusercontent.com/99320213/168443246-1e362280-291b-41c7-8676-e8395f018a92.png)  
+_Burn-UP de Puntos de Historia_
+
+![image](https://user-images.githubusercontent.com/99320213/168443261-974d0a2d-4ae6-4ed1-8cad-36ae22831c48.png)  
+_Burn-UP de Puntos de Valor_
+
+![image](https://user-images.githubusercontent.com/99320213/168443268-377f1336-1d3f-4d56-9a74-123a49c59277.png)  
+_Burn-DOWN de tareas_
+
+## Conclusiones PR6
+Como se puede observar tanto en la tabla como en las distintas gráficas, se ha trabajado sobretodo en las semanas finales de cada sprint.
+Según la gráfica de Burn-UP de Puntos de Historia, se han hecho bastante pocos puntos de historia, pero si se contrasta dicha gráfica con la de puntos de valor, se puede observar que se ha alcanzado casi el máximo de puntos de valor totales.
+
+Esto significa, que se han priorizado las tareas que ofrecían una gran cantidad de puntos de valor a pesar de tener pocos puntos de historia de usuario.
